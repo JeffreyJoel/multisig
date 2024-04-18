@@ -29,6 +29,8 @@ contract MultiSig {
     mapping(uint256 => Transaction) transactions;
 
     mapping(address => bool) isValidSigner;
+    mapping(address => bool) isValidSigner;
+    mapping(address => bool) isValidSigner;
 
 
     constructor(address[] memory _validSigners, uint256 _quorum) {
